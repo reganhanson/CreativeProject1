@@ -7,6 +7,10 @@ h1 {
 .about body {
   font-size: 24px;
 }
+
+div.about div.container p {
+  text-align: center;
+}
 nav {
   margin-left: 60px;
   margin-right: 60px;
@@ -14,41 +18,56 @@ nav {
 }
 
 body {
-  font-family: 'Major Mono Display', monospace;
-  font-style: italic;
-  /*background-color: #fffeea;*/
+  font-family: 'Fahkwang', sans-serif;
 }
 .navbar a{
-  
+
+}
+div.HomeImage img {
+  image-orientation: initial;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 img {
   image-orientation: initial;
-  width: 500px;
-  height: 325px;
-  margin: none;
+  /*width: 500px;
+  height: 325px;*/
   padding: none;
   filter: grayscale(100%);
-  position: absolute;
-  z-index: 0;
+  position: relative;
+  display: block;
+  /*z-index: 0;*/
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%
 }
-.rotate90 {
+/*.rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
+}*/
 .center {
   display: run-in;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-.flex-container {
-  margin-top: 50px;
+/*.container {
+  margin-top: none;
   display: flex;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding-left: none;
   background-color: grey;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}*/
+.flex-container {
+
 }
