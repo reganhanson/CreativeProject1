@@ -7,7 +7,6 @@ h1 {
 .about body {
   font-size: 24px;
 }
-
 div.about div.container p {
   text-align: center;
 }
@@ -16,12 +15,8 @@ nav {
   margin-right: 60px;
   /*color: #fffeea;*/
 }
-
 body {
   font-family: 'Fahkwang', sans-serif;
-}
-.navbar a{
-
 }
 div.HomeImage img {
   image-orientation: initial;
@@ -45,29 +40,46 @@ img {
   margin-right: auto;
   width: 50%
 }
-/*.rotate90 {
+.rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}*/
+}
 .center {
-  display: run-in;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-/*.container {
-  margin-top: none;
-  display: flex;
-  padding-left: none;
-  background-color: grey;
-  color: white;
+.container {
+  /*image-orientation: initial;*/
+  margin-top: 50px;
+  /*display: grid;*/
+/*  background-color: grey;*/
+  /*color: white;*/
+}
+
+.textbox p{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}*/
-.flex-container {
-
+}
+.container img {
+  max-height: 600px;
+  max-width: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: left;
+}
+div {
+  clear: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
